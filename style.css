@@ -1,7 +1,7 @@
 .noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
@@ -46,4 +46,49 @@
 
 .title-description {
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* card-style */
+.plants {
+    color: #E95A08;
+}
+
+.palnts-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plant-sec {
+    text-align: center;
+    margin: 0px 270px;
+}
+
+.card-container {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 20px;
+}
+
+.item-name {
+    font-size: 15px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.item-price {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-style {
+    width: 270px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
 }
