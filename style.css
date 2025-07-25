@@ -139,17 +139,29 @@
     border-radius: 14px;
 }
 
+.image-badge {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -110px;
+    width: 250px;
+    height: 250px;
+    right: -90px;
+}
+
+.badge img {
+    height: 100%;
+    width: 100%;
+}
+
 /* plant-section-style */
 
 .plant-lover {
     display: flex;
     margin: 150px 150px 130px 150px;
     gap: 50px;
-}
-
-.plant-lover img {
-    width: 540px;
-    height: 540px;
 }
 
 .title {
